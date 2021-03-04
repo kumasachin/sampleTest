@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly enzyme 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Container))>
+    Api Failure. Please retry by refreshing
+  </WithStyles(ForwardRef(Container))>
+</Fragment>
+`;

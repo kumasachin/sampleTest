@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly enzyme 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  open={true}
+>
+  <WithStyles(ForwardRef(DialogTitle))>
+    Account Number: 123123123123
+  </WithStyles(ForwardRef(DialogTitle))>
+  <WithStyles(ForwardRef(DialogContent))>
+    <ul>
+      <li>
+        Funds Held:  12
+      </li>
+      <li>
+        Overdraft:  12
+      </li>
+      <li>
+        Pending Balance:  132
+      </li>
+    </ul>
+  </WithStyles(ForwardRef(DialogContent))>
+  <WithStyles(ForwardRef(Button))
+    onClick={[Function]}
+  >
+    Close Popup
+  </WithStyles(ForwardRef(Button))>
+</WithStyles(ForwardRef(Dialog))>
+`;

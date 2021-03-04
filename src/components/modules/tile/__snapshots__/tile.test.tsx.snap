@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly enzyme 1`] = `
+<div>
+  <WithStyles(ForwardRef(Card))
+    className="makeStyles-root-1"
+  >
+    <WithStyles(ForwardRef(CardHeader))
+      title={
+        <WithStyles(ForwardRef(Typography))
+          component="h2"
+          variant="h5"
+        >
+          A/C Number: 111111111 
+        </WithStyles(ForwardRef(Typography))>
+      }
+    />
+    <WithStyles(ForwardRef(CardHeader))
+      title={
+        <WithStyles(ForwardRef(Typography))
+          component="h2"
+          variant="h5"
+        >
+          Balance:  GBP - 132
+        </WithStyles(ForwardRef(Typography))>
+      }
+    />
+    <WithStyles(ForwardRef(CardContent))
+      className="makeStyles-content-2"
+    >
+      <WithStyles(ForwardRef(Button))
+        name="1"
+        onClick={[Function]}
+      >
+        check details
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(CardContent))>
+  </WithStyles(ForwardRef(Card))>
+</div>
+`;

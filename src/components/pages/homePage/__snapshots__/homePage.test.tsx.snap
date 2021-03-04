@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`homepage renders correctly enzyme 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <HomePage
+    dataSelectorPrefix="ccob"
+    history={
+      Object {
+        "push": [MockFunction],
+      }
+    }
+    isDirty={true}
+    match={
+      Object {
+        "params": Object {},
+      }
+    }
+    setSessionTracking={[MockFunction]}
+  />
+</Provider>
+`;
+
+exports[`renders correctly enzyme 1`] = `<homePage />`;
